@@ -1,0 +1,60 @@
+.container{
+    text-align: center;
+    margin-top: 7%;
+    min-height: 300px;
+}
+
+form input{
+    display: block;
+    margin-left: 41%;
+    margin-top: 1%;
+    width: 20%;
+    padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+    border: 1px solid rgb(31, 31, 31);
+	border-radius: 50px;
+    background:#FFFFFF repeat-x; ;
+}
+
+button{
+    margin-left: 2%;
+    width: 20%;
+    margin-top: 2%;
+    padding: 0.4rem;
+	font-size: 1.2rem;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.google{
+    margin-top: 4%;
+    display: initial;
+}
+
+.google p{
+    width: 39%;
+    margin-left: 31.5%;
+}
+
+.google a{
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 40px;
+    border-radius: 3px;
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+    border: 1px solid rgb(31, 31, 31);
+}
+
+.google a:hover{
+    background-color: rgb(237, 252, 213);
+    padding: 8px 40px;
+	transition: .5s;
+}

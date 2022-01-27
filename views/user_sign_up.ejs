@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/css/user_sign_up.css">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<div class="container">
+
+<div><h2>Sign up</h2></div>
+
+<div class="form-container">
+    <form class="elem" action="/users/create" method="post">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+    
+        <button type="submit">Sign Up</button>
+
+        <div class="g-recaptcha" data-sitekey="<%= process.env.SITE_KEY %>"></div>
+    
+    </form>
+    
+</div>
+
+<div class="google">
+    <p>
+        <a href="/users/auth/google">Google Sign In/sign Up</a>
+    </p>
+</div>
+
+
+</div>

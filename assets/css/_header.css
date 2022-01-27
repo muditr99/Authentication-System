@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+}
+
+.outer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(235, 182, 122);
+}
+
+.inner ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.inner ul li a{
+    color: rgb(243, 238, 236);
+	font-size: 25px;
+    padding: 8px 15px;
+    border-radius: 3px;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+
+.inner ul li a:hover{
+    background : rgb(240, 147, 111);
+	transition: .5s;
+}
+
